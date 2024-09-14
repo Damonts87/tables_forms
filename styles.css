@@ -1,0 +1,13 @@
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  thead, tfoot{
+    text-align: center;
+    font-size: 30px;
+  }
+  colgroup{
+    background-color: aqua;
+  }
+  

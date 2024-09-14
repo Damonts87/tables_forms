@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Forms</title>
+</head>
+<body>
+    <form method = "GET">
+        <div>
+          <label for = "fullName">Full Name</label><br>
+          <input type = "text" id = "fullName" name = "fullName"><br>
+        </div>
+
+        <div>
+          <label for="useremail">Email: </label><br>
+          <input type = "email" name = "useremail"><br>
+        </div>
+        
+        <div>
+            <label for="subscription">Answer the question:</label><br>
+            <input type="radio" id="subscribe_yes" name="subscription" value="yes">
+            <label for="subscribe_yes">Yes</label><br>
+            <input type="radio" id="subscribe_no" name="subscription" value="no">
+            <label for="subscribe_no">No</label>
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+
+        <div>
+          <label for = "price">Donation Amount: </label>
+          <select name = "price">
+            <option value = "1" default>$</option>
+            <option value = "2">$$</option>
+            <option value = "3">$$$</option>
+            <option value = "4">$$$$</option>
+            <option value = "5">$$$$$</option>
+          </select><br>
+        </div>
+
+        <div>
+            <label for="message">Write Something:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message...">
+            </textarea>
+
+        </div>
+
+        <input type="submit" value = "Finished"><br>
+      </form>
+
+      <table>
+        <caption>Random</caption>
+        <thead>
+            <tr>
+                <th>Cats</th>
+                <th>TVs</th>
+                <th>Paper</th>
+                <th>Floor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>I</td>
+                <td>Don't</td>
+                <td>Know</td>
+                <td>What</td>
+            </tr>
+            <tr>
+                <td rowspan="2">To</td>
+                <td>Make</td>
+                <td>This</td>
+                <td>Table</td>
+            </tr>
+            <tr>
+                <td>About</td>
+                <td>So</td>
+                <td>I</td>
+            </tr>
+            <colgroup>
+            <tr>
+                <td rowspan="2">Will</td>
+                <td>Hide</td>
+                <td>This</td>
+                <td>Secret</td>
+            </tr>
+            <tr>
+                <td>Message</td>
+                <td>Inside</td>
+                <td>The</td>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td>Because</td>
+                <td>I</td>
+                <td>Am</td>
+            </tr>
+            </colgroup>
+            <tr>
+                <td colspan="2">Very</td>
+                <td colspan="2">Sneaky</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Kaboom</td>
+            </tr>
+        </tfoot>
+   </table>
+
+   
+   <img src="logo.png" usemap="#image-map">
+
+<map name="image-map">
+	<area shape="rect" coords="50,100,150,200"
+ href="https://www.weber.edu">
+<area shape="circle" coords="200,100,150"
+ href="https://www.weber.edu">
+</map>
+
+   
+
+</body>
+</html>
